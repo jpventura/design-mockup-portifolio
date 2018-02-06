@@ -1,58 +1,45 @@
 <!DOCTYPE html>
 <html>
-<head>
-        <script src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
-        <link rel="import" href="bower_components/grid-element/grid-element.html">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 40%;
-}
-
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-.container {
-    padding: 2px 16px;
-}
-</style>
-</head>
-<body>
-
-<section>
-    asdfasdfasdf
-</section>
-<section>
-    <h2>Card</h2>
-
-</section>
-
-<grid-element>
-    <grid-col><article class="card">
-            <img src="https://placebear.com/g/400/400" alt="Avatar" style="width:100%">
-            <div class="container">
-                <h4><b>John Doe</b></h4> 
-                <p>Architect & Engineer</p> 
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
+        <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <header>
+        <div>
+            <img class="col col-xs-4 text-left" src="img/udacity.svg" alt="Logo" style="width:30%">
+        </div>
+    </header>
+    <body>
+        <div>
+            <img src="https://placebear.com/g/992/360" alt="Avatar" style="width:100%">
+            <hr>
+        </div>
+        <h1>Featured Work</h1>
+        <div id="grid">
+            <div class="card">
+                <img src="img/popular_movies.png" alt="Popular Movies" style="width:100%">
+                <div>
+                    <h4><b>POPULAR MOVIES</b></h4>
+                    <p>Architect & Engineer</p> 
+                </div>
             </div>
-        </article></grid-col>
-    <grid-col><article class="card">
-            <img src="https://placebear.com/g/400/400" alt="Avatar" style="width:100%">
-            <div class="container">
-                <h4><b>John Doe</b></h4> 
-                <p>Architect & Engineer</p> 
+            <div class="card">
+                <img src="https://placebear.com/g/320/320" alt="Avatar" style="width:100%">
+                <div>
+                    <h4><b>John Doe</b></h4> 
+                    <p>Architect & Engineer</p> 
+                </div>
             </div>
-        </article></grid-col>
-    <grid-col><article class="card">
-            <img src="https://placebear.com/g/400/400" alt="Avatar" style="width:100%">
-            <div class="container">
-                <h4><b>John Doe</b></h4> 
-                <p>Architect & Engineer</p> 
+            <div class="card">
+                <img src="https://placebear.com/g/320/320" alt="Avatar" style="width:100%">
+                <div>
+                    <h4><b>John Doe</b></h4> 
+                    <p>Architect & Engineer</p> 
+                </div>
             </div>
-        </article></grid-col>
-  </grid-element>
-  
-</body>
-</html> 
+        </div>
+    </body>
+</html>
+
